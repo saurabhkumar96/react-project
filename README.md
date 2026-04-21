@@ -1,35 +1,16 @@
-# 🌿 Paradise Nursery - Shopping Cart Application
+# React + Vite
 
-## 📌 Project Overview
-Paradise Nursery is a dynamic e-commerce web application designed for browsing and purchasing houseplants. The application allows users to explore plant categories, view detailed product information, and manage a shopping cart with real-time updates.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-This project focuses on building an interactive and user-friendly shopping experience using modern frontend technologies and state management.
+Currently, two official plugins are available:
 
----
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## 🚀 Features
+## React Compiler
 
-- 🪴 Browse plants categorized into multiple sections
-- 📷 View plant details including image, name, description, and price
-- 🛒 Add plants to the shopping cart
-- 🔢 Dynamic cart item count in the navigation bar
-- ➕ Increase or ➖ decrease item quantity in cart
-- ❌ Remove items from the cart
-- 💰 Automatic total price calculation
-- 🔒 Disable "Add to Cart" button after adding item
-- 🔄 Seamless navigation between pages
-- 🧾 Checkout button with placeholder functionality
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
----
+## Expanding the ESLint configuration
 
-## 🧑‍💻 Tech Stack
-
-- **Frontend:** React.js
-- **State Management:** Redux Toolkit
-- **Styling:** CSS
-- **Routing:** React Router
-
----
-
-## 📂 Project Structure
-x
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
